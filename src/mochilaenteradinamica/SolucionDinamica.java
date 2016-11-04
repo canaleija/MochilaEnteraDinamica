@@ -38,7 +38,33 @@ public class SolucionDinamica {
     }
     
     
-    
+//       // calculamos la matriz de beneficios
+//       for (int i=1;i <= this.items.size();i++)
+//           for(int w=0; w<= this.W;w++){
+//           // verificamos si el item puede ser parte de la solucion
+//               if  (this.items.get(i-1).getWeight()<= w){
+//               
+//                   if ((this.items.get(i-1).getBenefit()+
+//                           this.matrizBeneficios[i-1][w-this.items.get(i-1).getWeight()])
+//                           >this.matrizBeneficios[i-1][w]){
+//                   
+//                       this.matrizBeneficios[i][w] = this.items.get(i-1).getBenefit()+
+//                               this.matrizBeneficios[i-1][w-this.items.get(i-1).getWeight()];
+//                       
+//                   }else{
+//                   
+//                        this.matrizBeneficios[i][w] = this.matrizBeneficios[i-1][w];
+//                   
+//                   }
+//               
+//               }else{
+//               this.matrizBeneficios[i][w] = this.matrizBeneficios[i-1][w];
+//               }
+//           
+//           }
+//       this.maxBenefit = (int)matrizBeneficios[items.size()][W];
+//
+//    
     
     
 }
